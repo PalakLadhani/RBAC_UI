@@ -1,0 +1,34 @@
+/* Example of a restored, attractive login page */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #ff7e5f,
+    #feb47b
+  ); /* Yellow-orange gradient */
+}
+
+.login-card {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.login-card .ant-form-item {
+  margin-bottom: 15px;
+}
+
+.ant-btn-primary {
+  background-color: #ff7e5f;
+  border-color: #ff7e5f;
+}
+
+.ant-btn-primary:hover {
+  background-color: #feb47b;
+  border-color: #feb47b;
+}

@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+/* Add to App.css or Login.css */
+.login-container {
+  width: 300px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.login-container input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 8px;
+}
+.login-container button {
+  width: 100%;
+  padding: 10px;
+}
